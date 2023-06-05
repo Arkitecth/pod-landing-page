@@ -1,0 +1,338 @@
+{
+    "sourceFile": "script.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 80,
+            "patches": [
+                {
+                    "date": 1685922241748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1685922260762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const img = \n\\ No newline at end of file\n+const img_host = document.querySelector(\"/\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685922278922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const img_host = document.querySelector(\"/\")\n\\ No newline at end of file\n+const img_host = document.querySelector(\".img\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685922323682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const img_host = document.querySelector(\".img\")\n\\ No newline at end of file\n+const img_host = document.querySelector(\".img-host\"); \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685922352230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-const img_host = document.querySelector(\".img-host\"); \n\\ No newline at end of file\n+const img_host = document.querySelector(\".img-host\"); \n+\n+var w = window.innerWidth;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685922363963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n const img_host = document.querySelector(\".img-host\"); \n \n-var w = window.innerWidth;\n\\ No newline at end of file\n+let w = window.innerWidth; \n+\n+if(w === )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685922370153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n const img_host = document.querySelector(\".img-host\"); \n \n let w = window.innerWidth; \n \n-if(w === )\n\\ No newline at end of file\n+if(w === 375) {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685922396872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n \n let w = window.innerWidth; \n \n if(w === 375) {\n-    \n+    img_host.remove(); \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685922475990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n const img_host = document.querySelector(\".img-host\"); \n \n-let w = window.innerWidth; \n+let w = window.innerHeight; \n+console.log(w)\n \n if(w === 375) {\n     img_host.remove(); \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685922483547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const img_host = document.querySelector(\".img-host\"); \n \n-let w = window.innerHeight; \n+let w = window.innerWidth; \n console.log(w)\n \n if(w === 375) {\n     img_host.remove(); \n"
+                },
+                {
+                    "date": 1685922528860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n \n let w = window.innerWidth; \n console.log(w)\n \n-if(w === 375) {\n+if(w === 666) {\n     img_host.remove(); \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685922839241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,4 @@\n const img_host = document.querySelector(\".img-host\"); \n \n let w = window.innerWidth; \n-console.log(w)\n-\n-if(w === 666) {\n-    img_host.remove(); \n-}\n\\ No newline at end of file\n+console.log(w)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685923156748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n const img_host = document.querySelector(\".img-host\"); \n \n let w = window.innerWidth; \n-console.log(w)\n\\ No newline at end of file\n+console.log(w)\n+\n+if(w === 666) {\n+    img_host.remove(); \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685923497240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,4 @@\n const img_host = document.querySelector(\".img-host\"); \n \n let w = window.innerWidth; \n-console.log(w)\n-\n-if(w === 666) {\n-    img_host.remove(); \n-}\n\\ No newline at end of file\n+console.log(w)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984080387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n const img_host = document.querySelector(\".img-host\"); \n \n let w = window.innerWidth; \n-console.log(w)\n\\ No newline at end of file\n+\n+if w \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984086622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n const img_host = document.querySelector(\".img-host\"); \n \n-let w = window.innerWidth; \n-\n-if w \n\\ No newline at end of file\n+let w = window.innerWidth;\n+console.log(w)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984121619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n const img_host = document.querySelector(\".img-host\"); \n \n let w = window.innerWidth;\n-console.log(w)\n\\ No newline at end of file\n+\n+if(w === )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984127498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n const img_host = document.querySelector(\".img-host\"); \n \n let w = window.innerWidth;\n \n-if(w === )\n\\ No newline at end of file\n+if(w === 740)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984193627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n const img_host = document.querySelector(\".img-host\"); \n \n let w = window.innerWidth;\n \n-if(w === 740)\n\\ No newline at end of file\n+if(w > 768 && w < 1024) {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984202375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n \n let w = window.innerWidth;\n \n if(w > 768 && w < 1024) {\n-    \n+    img_host.src = \"\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984227954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n \n let w = window.innerWidth;\n \n if(w > 768 && w < 1024) {\n-    img_host.src = \"\"\n+    img_host.src = \"ode-assets/assets/desktop/image-host.jpg\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984258761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n \n let w = window.innerWidth;\n \n if(w > 768 && w < 1024) {\n-    img_host.src = \"ode-assets/assets/desktop/image-host.jpg\"\n+    img_host.src = \"code-assets/assets/tablet/image-host.jpg\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984301750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,7 @@\n let w = window.innerWidth;\n \n if(w > 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\"\n+} else {\n+    img_host.src = \"code-assets/assets/desktop/image-host.jpgs\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984309528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n \n if(w > 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\"\n } else {\n-    img_host.src = \"code-assets/assets/desktop/image-host.jpgs\"\n+    img_host.src = \"code-assets/assets/desktop/image-host.jpg\"\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984352437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \n let w = window.innerWidth;\n \n if(w > 768 && w < 1024) {\n-    img_host.src = \"code-assets/assets/tablet/image-host.jpg\"\n+    img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n } else {\n-    img_host.src = \"code-assets/assets/desktop/image-host.jpg\"\n+    img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984361705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,8 @@\n let w = window.innerWidth;\n \n if(w > 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n+    console.log(img_host.src)\n } else {\n     img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984383155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n const img_host = document.querySelector(\".img-host\"); \n \n let w = window.innerWidth;\n \n+console.log(w)\n if(w > 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n-    console.log(img_host.src)\n+    console.log(img_host.src); \n } else {\n     img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984388865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n let w = window.innerWidth;\n \n console.log(w)\n-if(w > 768 && w < 1024) {\n+if(w >= 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n     console.log(img_host.src); \n } else {\n     img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n"
+                },
+                {
+                    "date": 1685984571013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n \n console.log(w)\n if(w >= 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n+    alert(\"HELLO\")\n     console.log(img_host.src); \n } else {\n     img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984612103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,8 @@\n \n console.log(w)\n if(w >= 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n-    alert(\"HELLO\")\n     console.log(img_host.src); \n } else {\n     img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984722699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n let w = window.innerWidth;\n \n console.log(w)\n-if(w >= 768 && w < 1024) {\n+while(w >= 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n     console.log(img_host.src); \n } else {\n     img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n"
+                },
+                {
+                    "date": 1685984731119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,7 @@\n \n console.log(w)\n while(w >= 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n-    console.log(img_host.src); \n } else {\n     img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984737845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,5 @@\n \n console.log(w)\n while(w >= 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n-} else {\n-    img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n-}\n\\ No newline at end of file\n+    img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984756312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,7 @@\n \n console.log(w)\n while(w >= 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n-    img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n\\ No newline at end of file\n+   \n+}\n+img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984795095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n \n console.log(w)\n while(w >= 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n-   \n+    console.log(\"hey\")\n }\n img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984805347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,6 @@\n \n console.log(w)\n while(w >= 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n-    console.log(\"hey\")\n }\n img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685984835395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n \n let w = window.innerWidth;\n \n console.log(w)\n-while(w >= 768 && w < 1024) {\n+if (w >= 768 && w < 1024) {\n     img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n }\n img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685985536887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,3 @@\n const img_host = document.querySelector(\".img-host\"); \n \n-let w = window.innerWidth;\n-\n-console.log(w)\n-if (w >= 768 && w < 1024) {\n-    img_host.src = \"code-assets/assets/tablet/image-host.jpg\";\n-}\n-img_host.src = \"code-assets/assets/desktop/image-host.jpg\";\n\\ No newline at end of file\n+let w = window.innerWidth\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685985686424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,9 @@\n-const img_host = document.querySelector(\".img-host\"); \n+const img_host = document.querySelector(\".img-host\");\n \n\\ No newline at end of file\n-let w = window.innerWidth\n+function validateForm() {\n+    let x = document.forms[\"myForm\"][\"fname\"].value;\n+    if (x == \"\") {\n+      alert(\"Name must be filled out\");\n+      return false;\n+    }\n+  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685985709952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const img_host = document.querySelector(\".img-host\");\n \n function validateForm() {\n-    let x = document.forms[\"myForm\"][\"fname\"].value;\n+    let x = document.forms[\"form\"][\"fname\"].value;\n     if (x == \"\") {\n       alert(\"Name must be filled out\");\n       return false;\n     }\n"
+                },
+                {
+                    "date": 1685985718901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const img_host = document.querySelector(\".img-host\");\n \n function validateForm() {\n-    let x = document.forms[\"form\"][\"fname\"].value;\n+    let x = document.forms[\"form\"][\"email\"].value;\n     if (x == \"\") {\n       alert(\"Name must be filled out\");\n       return false;\n     }\n"
+                },
+                {
+                    "date": 1685985730246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const img_host = document.querySelector(\".img-host\");\n \n function validateForm() {\n-    let x = document.forms[\"form\"][\"email\"].value;\n+    let input = document.forms[\"form\"][\"email\"].value;\n     if (x == \"\") {\n       alert(\"Name must be filled out\");\n       return false;\n     }\n"
+                },
+                {
+                    "date": 1685985742240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const img_host = document.querySelector(\".img-host\");\n \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n-    if (x == \"\") {\n+    if (input === \"\") {\n       alert(\"Name must be filled out\");\n       return false;\n     }\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685986170653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,6 @@\n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n     if (input === \"\") {\n       alert(\"Name must be filled out\");\n-      return false;\n     }\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685986253157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,6 @@\n \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n     if (input === \"\") {\n-      alert(\"Name must be filled out\");\n     }\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685986275490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const img_host = document.querySelector(\".img-host\");\n \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n-    if (input === \"\") {\n+    if (input === \"\" || input.includes(\"#\")) {\n     }\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685986295465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n const img_host = document.querySelector(\".img-host\");\n \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n+    let errorMessage = document.querySelector(\".validation\")\n     if (input === \"\" || input.includes(\"#\")) {\n+\n     }\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685986320958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n     let errorMessage = document.querySelector(\".validation\")\n     if (input === \"\" || input.includes(\"#\")) {\n-\n+        errorMessage.styles.visibility = \"visible\";\n     }\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685986339066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,6 @@\n     let errorMessage = document.querySelector(\".validation\")\n     if (input === \"\" || input.includes(\"#\")) {\n         errorMessage.styles.visibility = \"visible\";\n     }\n-  }\n\\ No newline at end of file\n+  }\n+validateForm();\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685986380356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n     let errorMessage = document.querySelector(\".validation\")\n     if (input === \"\" || input.includes(\"#\")) {\n-        errorMessage.styles.visibility = \"visible\";\n+        errorMessage.style.visibility = \"visible\";\n     }\n   }\n validateForm();\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685986393101,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,5 @@\n     let errorMessage = document.querySelector(\".validation\")\n     if (input === \"\" || input.includes(\"#\")) {\n         errorMessage.style.visibility = \"visible\";\n     }\n-  }\n-validateForm();\n\\ No newline at end of file\n+  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685986415758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n const img_host = document.querySelector(\".img-host\");\n-\n+const form = document.querySelector(\"form\")\n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n     let errorMessage = document.querySelector(\".validation\")\n     if (input === \"\" || input.includes(\"#\")) {\n         errorMessage.style.visibility = \"visible\";\n     }\n\\ No newline at end of file\n-  }\n+  }\n+\n"
+                },
+                {
+                    "date": 1685986437792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,10 @@\n     let errorMessage = document.querySelector(\".validation\")\n     if (input === \"\" || input.includes(\"#\")) {\n         errorMessage.style.visibility = \"visible\";\n     }\n-  }\n+}\n+\n+\n+form.addEventListener(\"onsubmit\", () => {\n+    \n+})\n"
+                },
+                {
+                    "date": 1685986466818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,7 @@\n }\n \n \n form.addEventListener(\"onsubmit\", () => {\n-    \n+    console.log(\"HEY NOW IM A ROCK STAR\");\n+    validateForm(); \n })\n"
+                },
+                {
+                    "date": 1685986591603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,6 +10,6 @@\n \n \n form.addEventListener(\"onsubmit\", () => {\n     console.log(\"HEY NOW IM A ROCK STAR\");\n-    validateForm(); \n+    // validateForm(); \n })\n"
+                },
+                {
+                    "date": 1685986622861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const img_host = document.querySelector(\".img-host\");\n-const form = document.querySelector(\"form\")\n+const form = document.querySelector(\"button\")\n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n     let errorMessage = document.querySelector(\".validation\")\n     if (input === \"\" || input.includes(\"#\")) {\n"
+                },
+                {
+                    "date": 1685986630181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const img_host = document.querySelector(\".img-host\");\n-const form = document.querySelector(\"button\")\n+const button = document.querySelector(\"button\")\n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n     let errorMessage = document.querySelector(\".validation\")\n     if (input === \"\" || input.includes(\"#\")) {\n@@ -8,8 +8,8 @@\n     }\n }\n \n \n-form.addEventListener(\"onsubmit\", () => {\n+button.addEventListener(\"onsubmit\", () => {\n     console.log(\"HEY NOW IM A ROCK STAR\");\n     // validateForm(); \n })\n"
+                },
+                {
+                    "date": 1685986645372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const img_host = document.querySelector(\".img-host\");\n-const button = document.querySelector(\"button\")\n+const button = document.querySelector(\"button\"); \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n     let errorMessage = document.querySelector(\".validation\")\n     if (input === \"\" || input.includes(\"#\")) {\n"
+                },
+                {
+                    "date": 1685986672095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n     }\n }\n \n \n-button.addEventListener(\"onsubmit\", () => {\n+button.addEventListener(\"submit\", () => {\n     console.log(\"HEY NOW IM A ROCK STAR\");\n     // validateForm(); \n })\n"
+                },
+                {
+                    "date": 1685986697946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n     }\n }\n \n \n-button.addEventListener(\"submit\", () => {\n+button.addEventListener(\"click\", () => {\n     console.log(\"HEY NOW IM A ROCK STAR\");\n     // validateForm(); \n })\n"
+                },
+                {
+                    "date": 1685987046603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,6 +10,6 @@\n \n \n button.addEventListener(\"click\", () => {\n     console.log(\"HEY NOW IM A ROCK STAR\");\n-    // validateForm(); \n+    validateForm(); \n })\n"
+                },
+                {
+                    "date": 1685987068365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n     }\n }\n \n \n-button.addEventListener(\"click\", () => {\n+button.addEventListener(\"submit\", () => {\n     console.log(\"HEY NOW IM A ROCK STAR\");\n     validateForm(); \n })\n"
+                },
+                {
+                    "date": 1685987073925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n     }\n }\n \n \n-button.addEventListener(\"submit\", () => {\n+button.addEventListener(\"click\", () => {\n     console.log(\"HEY NOW IM A ROCK STAR\");\n     validateForm(); \n })\n"
+                },
+                {
+                    "date": 1685987138332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,14 @@\n const img_host = document.querySelector(\".img-host\");\n const button = document.querySelector(\"button\"); \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n-    let errorMessage = document.querySelector(\".validation\")\n     if (input === \"\" || input.includes(\"#\")) {\n         errorMessage.style.visibility = \"visible\";\n     }\n }\n \n \n button.addEventListener(\"click\", () => {\n-    console.log(\"HEY NOW IM A ROCK STAR\");\n+    let errorMessage = document.querySelector(\".validation\")\n     validateForm(); \n })\n"
+                },
+                {
+                    "date": 1685987146981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n const button = document.querySelector(\"button\"); \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n     if (input === \"\" || input.includes(\"#\")) {\n-        errorMessage.style.visibility = \"visible\";\n+        return false\n     }\n }\n \n \n"
+                },
+                {
+                    "date": 1685987167293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,13 @@\n     let input = document.forms[\"form\"][\"email\"].value;\n     if (input === \"\" || input.includes(\"#\")) {\n         return false\n     }\n+    return true\n }\n \n \n button.addEventListener(\"click\", () => {\n     let errorMessage = document.querySelector(\".validation\")\n-    validateForm(); \n+    let x = validateForm(); \n+    if()\n })\n"
+                },
+                {
+                    "date": 1685987173444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,6 @@\n \n button.addEventListener(\"click\", () => {\n     let errorMessage = document.querySelector(\".validation\")\n     let x = validateForm(); \n-    if()\n+    if(x === false)\n })\n"
+                },
+                {
+                    "date": 1685987193414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,15 +2,14 @@\n const button = document.querySelector(\"button\"); \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n     if (input === \"\" || input.includes(\"#\")) {\n-        return false\n+        errorMessage.style.visibility = \"visible\";\n     }\n-    return true\n }\n \n \n button.addEventListener(\"click\", () => {\n     let errorMessage = document.querySelector(\".validation\")\n+    errorMessage.style.visibility = \"visible\";\n     let x = validateForm(); \n-    if(x === false)\n })\n"
+                },
+                {
+                    "date": 1685987206914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,14 +2,17 @@\n const button = document.querySelector(\"button\"); \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n     if (input === \"\" || input.includes(\"#\")) {\n-        errorMessage.style.visibility = \"visible\";\n+        return false\n     }\n }\n \n \n button.addEventListener(\"click\", () => {\n     let errorMessage = document.querySelector(\".validation\")\n     errorMessage.style.visibility = \"visible\";\n     let x = validateForm(); \n+    if(x === false) {\n+\n+    }\n })\n"
+                },
+                {
+                    "date": 1685987219836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n \n \n button.addEventListener(\"click\", () => {\n     let errorMessage = document.querySelector(\".validation\")\n-    errorMessage.style.visibility = \"visible\";\n+   \n     let x = validateForm(); \n     if(x === false) {\n-\n+        errorMessage.style.visibility = \"visible\";\n     }\n })\n"
+                },
+                {
+                    "date": 1685987237108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n     let input = document.forms[\"form\"][\"email\"].value;\n     if (input === \"\" || input.includes(\"#\")) {\n         return false\n     }\n+\n }\n \n \n button.addEventListener(\"click\", () => {\n@@ -13,6 +14,8 @@\n    \n     let x = validateForm(); \n     if(x === false) {\n         errorMessage.style.visibility = \"visible\";\n+    } else {\n+        errorMessage.style.visibility = \"hidden\";\n     }\n })\n"
+                },
+                {
+                    "date": 1685987293253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,10 @@\n \n \n button.addEventListener(\"click\", () => {\n     let errorMessage = document.querySelector(\".validation\")\n-   \n     let x = validateForm(); \n-    if(x === false) {\n+    if(!validateForm()) {\n         errorMessage.style.visibility = \"visible\";\n     } else {\n         errorMessage.style.visibility = \"hidden\";\n     }\n"
+                },
+                {
+                    "date": 1685987396631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,12 +8,12 @@\n \n }\n \n \n-button.addEventListener(\"click\", () => {\n+button.addEventListener(\"click\", (e) => {\n     let errorMessage = document.querySelector(\".validation\")\n-    let x = validateForm(); \n     if(!validateForm()) {\n+        e.preventDefault()\n         errorMessage.style.visibility = \"visible\";\n     } else {\n         errorMessage.style.visibility = \"hidden\";\n     }\n"
+                },
+                {
+                    "date": 1685987527209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,8 @@\n \n button.addEventListener(\"click\", (e) => {\n     let errorMessage = document.querySelector(\".validation\")\n     if(!validateForm()) {\n-        e.preventDefault()\n         errorMessage.style.visibility = \"visible\";\n     } else {\n         errorMessage.style.visibility = \"hidden\";\n     }\n"
+                },
+                {
+                    "date": 1685987542891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n     let input = document.forms[\"form\"][\"email\"].value;\n     if (input === \"\" || input.includes(\"#\")) {\n         return false\n     }\n+    return true\n \n }\n \n \n"
+                },
+                {
+                    "date": 1685987578055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n \n button.addEventListener(\"click\", (e) => {\n     let errorMessage = document.querySelector(\".validation\")\n     if(!validateForm()) {\n+        e.preventDefault()\n         errorMessage.style.visibility = \"visible\";\n     } else {\n         errorMessage.style.visibility = \"hidden\";\n     }\n"
+                },
+                {
+                    "date": 1685987615865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const img_host = document.querySelector(\".img-host\");\n const button = document.querySelector(\"button\"); \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n-    if (input === \"\" || input.includes(\"#\")) {\n+    if (input === \"\" || !input.includes(\"@\")) {\n         return false\n     }\n     return true\n \n@@ -12,9 +12,9 @@\n \n button.addEventListener(\"click\", (e) => {\n     let errorMessage = document.querySelector(\".validation\")\n     if(!validateForm()) {\n-        e.preventDefault()\n+        e.preventDefault();\n         errorMessage.style.visibility = \"visible\";\n     } else {\n         errorMessage.style.visibility = \"hidden\";\n     }\n"
+                },
+                {
+                    "date": 1685987657580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const img_host = document.querySelector(\".img-host\");\n const button = document.querySelector(\"button\"); \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n-    if (input === \"\" || !input.includes(\"@\")) {\n+    if (input === \"\" || !input.includes(\"@\")} || !input.includes(\"@\")) {\n         return false\n     }\n     return true\n \n"
+                },
+                {
+                    "date": 1685987663264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const img_host = document.querySelector(\".img-host\");\n const button = document.querySelector(\"button\"); \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n-    if (input === \"\" || !input.includes(\"@\")} || !input.includes(\"@\")) {\n+    if (input === \"\" || !input.includes(\"@\")} || !input.includes(\".com\") {\n         return false\n     }\n     return true\n \n"
+                },
+                {
+                    "date": 1685987668602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const img_host = document.querySelector(\".img-host\");\n const button = document.querySelector(\"button\"); \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n-    if (input === \"\" || !input.includes(\"@\")} || !input.includes(\".com\") {\n+|| !input.includes(\".com\") {\n         return false\n     }\n     return true\n \n"
+                },
+                {
+                    "date": 1685987681162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const img_host = document.querySelector(\".img-host\");\n const button = document.querySelector(\"button\"); \n function validateForm() {\n     let input = document.forms[\"form\"][\"email\"].value;\n-|| !input.includes(\".com\") {\n+    if (input === \"\" || !input.includes(\"@\") || !input.includes(\".com\")) {\n         return false\n     }\n     return true\n \n"
+                }
+            ],
+            "date": 1685922241748,
+            "name": "Commit-0",
+            "content": "const img = "
+        }
+    ]
+}

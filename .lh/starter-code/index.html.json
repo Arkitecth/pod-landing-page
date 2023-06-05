@@ -1,0 +1,66 @@
+{
+    "sourceFile": "starter-code/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1685895478097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1685895490945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   \n   <title>Pod request access landing page</title>\n </head>\n <body>\n-  Publish your podcasts everywhere.\n+  <h1>Publish your podcasts everywhere. </h1>\n \n   Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n   Apple Podcasts, Google Podcasts, Pocket Casts and more!\n \n"
+                },
+                {
+                    "date": 1685895500098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,10 @@\n </head>\n <body>\n   <h1>Publish your podcasts everywhere. </h1>\n \n-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n-  Apple Podcasts, Google Podcasts, Pocket Casts and more!\n+  <p> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n+  Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>\n \n   Request access\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685895505573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n   <title>Pod request access landing page</title>\n </head>\n <body>\n   <h1>Publish your podcasts everywhere. </h1>\n-\n   <p> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n   Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>\n \n   Request access\n"
+                },
+                {
+                    "date": 1685895583606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,11 @@\n <body>\n   <h1>Publish your podcasts everywhere. </h1>\n   <p> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n   Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>\n+  <form> \n+    <input type=\"submit\" value=\"\">\n+    Request access\n+  </form>\n \n-  Request access\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685895589024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,10 @@\n   <h1>Publish your podcasts everywhere. </h1>\n   <p> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n   Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>\n   <form> \n-    <input type=\"submit\" value=\"\">\n-    Request access\n+    <input type=\"submit\" value=\"Request access\">\n+   \n   </form>\n \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685895602732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,10 @@\n   <h1>Publish your podcasts everywhere. </h1>\n   <p> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n   Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>\n   <form> \n+    <input type=\"email\" name=\"\" id=\"\">\n     <input type=\"submit\" value=\"Request access\">\n-   \n   </form>\n \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685895617223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   <h1>Publish your podcasts everywhere. </h1>\n   <p> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n   Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>\n   <form> \n-    <input type=\"email\" name=\"\" id=\"\">\n+    <input type=\"email\" name=\"email\" placeholder=\"Email Address\">\n     <input type=\"submit\" value=\"Request access\">\n   </form>\n \n </body>\n"
+                },
+                {
+                    "date": 1685895657964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,10 @@\n   <h1>Publish your podcasts everywhere. </h1>\n   <p> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n   Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>\n   <form> \n-    <input type=\"email\" name=\"email\" placeholder=\"Email Address\">\n-    <input type=\"submit\" value=\"Request access\">\n+    <input type=\"email\" name=\"email\" placeholder=\"Email Address\"  <input type=\"submit\" value=\"Request access\">>\n+   \n   </form>\n \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1685895663410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   <h1>Publish your podcasts everywhere. </h1>\n   <p> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n   Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>\n   <form> \n-    <input type=\"email\" name=\"email\" placeholder=\"Email Address\"  <input type=\"submit\" value=\"Request access\">>\n+    <input type=\"email\" name=\"email\" placeholder=\"Email Address\" >\n    \n   </form>\n \n </body>\n"
+                },
+                {
+                    "date": 1685895674983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   <h1>Publish your podcasts everywhere. </h1>\n   <p> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n   Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>\n   <form> \n-    <input type=\"email\" name=\"email\" placeholder=\"Email Address\" >\n+    <input type=\"email\" name=\"email\" placeholder=\"Email Address\"  <input type=\"submit\" value=\"Request access\">>\n    \n   </form>\n \n </body>\n"
+                },
+                {
+                    "date": 1685895684156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   <h1>Publish your podcasts everywhere. </h1>\n   <p> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n   Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>\n   <form> \n-    <input type=\"email\" name=\"email\" placeholder=\"Email Address\"  <input type=\"submit\" value=\"Request access\">>\n+    <input type=\"email\" name=\"email\" placeholder=\"Email Address\" value=\" <input type=\"submit\" value=\"Request access\">\">\n    \n   </form>\n \n </body>\n"
+                },
+                {
+                    "date": 1685895689747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   <h1>Publish your podcasts everywhere. </h1>\n   <p> Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n   Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>\n   <form> \n-    <input type=\"email\" name=\"email\" placeholder=\"Email Address\" value=\" <input type=\"submit\" value=\"Request access\">\">\n+    <input type=\"email\" name=\"email\" placeholder=\"Email Address\">\n    \n   </form>\n \n </body>\n"
+                }
+            ],
+            "date": 1685895478097,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n  <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./assets/favicon-32x32.png\">\n  \n  <title>Pod request access landing page</title>\n</head>\n<body>\n  Publish your podcasts everywhere.\n\n  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, \n  Apple Podcasts, Google Podcasts, Pocket Casts and more!\n\n  Request access\n</body>\n</html>"
+        }
+    ]
+}
